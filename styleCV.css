@@ -21,6 +21,15 @@ a{
     padding: 30px;
     text-decoration: none;
 }
+.cv{
+    color:blue;
+    text-align: right;
+   
+    font-size: 20px;
+    float: right;
+    padding: 30px;
+    text-decoration: none;
+}
 
  a:hover{
     animation-name: animacionTexto;
@@ -40,27 +49,17 @@ h1{
     0% {transform: scale(1);}
     
 }
-/* La posicion y tamaño de la foto de perfil*/
-.fotoPerfil{
-    position: absolute;
-    width: 304px;
-    height: 300px;
-    left: 544px;
-    top: 61.5px;
+.content{
+    width: 649px;
+    height: 560px;
     background-color: white;
-    border-radius: 170px;
-    animation-name: animacionFoto;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    
-    }
-/*Animacion de la foto de perfil*/
-    @keyframes animacionFoto {
-        from { transform: none; }
-    50% { transform: scale(0.9); }
-    to { transform: none; }
-    }
+    left: 374px;
+    top: 117.5px;
+    position: absolute;
+}
 
+
+/*Apartado de las redes sociales*/
 .twitter{
     width: 60px;
     height: 58px;
@@ -82,9 +81,6 @@ h1{
     
 }
 
-
-
-    
 /*Estilo del fondo de pantalla*/
 .area{
     background: #4e54c8;  

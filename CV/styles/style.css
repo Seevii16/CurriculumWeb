@@ -35,6 +35,9 @@ a {
     text-decoration: none;
 }
 
+
+/*Cuando paso por encima de un link tiene animacion*/
+
 a:hover {
     animation-name: animacionTexto;
     animation-duration: 2s;
@@ -88,6 +91,9 @@ h1 {
     color: rgb(206, 226, 255);
 }
 
+
+/*Animacon texto*/
+
 @keyframes animacionTexto {
     0% {
         transform: scale(1);
@@ -106,6 +112,9 @@ h1 {
 p {
     font-size: 20px;
 }
+
+
+/*Diseño de las cartas y imagen*/
 
 .card {
     width: 331px;
@@ -145,6 +154,51 @@ p {
     height: 50px;
     margin-left: 102px;
     margin-top: inherit;
+}
+
+
+/*Cuando cursor pasa por encima tiene una animacion*/
+
+.card-4 img:hover {
+    animation-name: animacion1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+}
+
+.card-3 img:hover {
+    animation-name: animacion1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+}
+
+@keyframes animacion1 {
+    0% {
+        background-color: #4e54c8;
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        background-color: #3940c5;
+        left: 100px;
+        top: 0px;
+    }
+    50% {
+        background-color: #4e54c8;
+        left: 100px;
+        top: 0px;
+    }
+    75% {
+        background-color: #3940c5;
+        left: 100px;
+        top: 0px;
+    }
+    100% {
+        background-color: #4e54c8;
+        left: 0px;
+        top: 0px;
+    }
 }
 
 .informacion {
@@ -206,6 +260,41 @@ p {
 button {
     background-color: #4e54c8;
     border-radius: 15px;
+}
+
+button:hover {
+    animation-name: animacion2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-radius: 15px;
+}
+
+@keyframes animacion2 {
+    0% {
+        background-color: purple;
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        background-color: #4e54c8;
+        left: 100px;
+        top: 0px;
+    }
+    50% {
+        background-color: #4e54c8;
+        left: 100px;
+        top: 0px;
+    }
+    75% {
+        background-color: purple;
+        left: 100px;
+        top: 0px;
+    }
+    100% {
+        background-color: #4e54c8;
+        left: 0px;
+        top: 0px;
+    }
 }
 
 .github button {

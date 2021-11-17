@@ -200,17 +200,13 @@ p {
 /*Cuando cursor pasa por encima tiene una animacion*/
 
 .card-4 img:hover {
-    animation-name: animacion1;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    border-radius: 10px;
+    animation-name: animacionTexto;
+    animation-duration: 2s;
 }
 
 .card-3 img:hover {
-    animation-name: animacion1;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    border-radius: 10px;
+    animation-name: animacionTexto;
+    animation-duration: 2s;
 }
 
 @keyframes animacion1 {

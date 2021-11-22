@@ -25,10 +25,17 @@ body {
     }
 }
 
-@media (max-width: 767.98px) {
-    .table-responsive-md {
+@media (max-width: 575.98px) {
+    .card-responsive-sm {
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .card-4 {
+        float: left;
+        margin-top: 238px;
     }
 }
 
@@ -53,6 +60,9 @@ body {
     }
 }
 
+
+/*Estilo a los enlaces*/
+
 a {
     color: rgb(206, 226, 255);
     text-align: right;
@@ -62,9 +72,15 @@ a {
     text-decoration: none;
 }
 
+
+/*Estilo al contenido de h1*/
+
 .content h1 {
     color: black;
 }
+
+
+/*Estilo del enlace CV*/
 
 .cv {
     color: black;
@@ -83,6 +99,9 @@ a:hover {
     animation-duration: 2s;
 }
 
+
+/*Estilo del h1 de la info*/
+
 .informacion h1 {
     color: black;
     font-size: 40px;
@@ -90,6 +109,9 @@ a:hover {
     padding-left: 0px;
     padding-top: 0px;
 }
+
+
+/*Estilo del h1 de los estudios*/
 
 .estudiosInfo h1 {
     color: black;
@@ -99,6 +121,9 @@ a:hover {
     padding-top: 0px;
 }
 
+
+/*Estilo h1 de la carta*/
+
 .card h1 {
     color: black;
     font-size: 40px;
@@ -106,6 +131,9 @@ a:hover {
     padding-left: 0px;
     padding-top: 0px;
 }
+
+
+/*Estilo h1 de la carta-3*/
 
 .card-3 h1 {
     color: black;
@@ -115,6 +143,9 @@ a:hover {
     padding-top: 0px;
 }
 
+
+/*Estilo h1 de la carta-4*/
+
 .card-4 h1 {
     color: black;
     font-size: 40px;
@@ -122,6 +153,9 @@ a:hover {
     padding-left: 0px;
     padding-top: 0px;
 }
+
+
+/*Estilo h1*/
 
 h1 {
     text-align: center;
@@ -333,11 +367,17 @@ button:hover {
     }
 }
 
+
+/*Estilo boton*/
+
 .github button {
     width: 61px;
     height: 66px;
     border-radius: 58px;
 }
+
+
+/*Redimensionar imagen*/
 
 .imagenGithub {
     width: 80px;
@@ -345,6 +385,9 @@ button:hover {
     margin-left: -10px;
     margin-top: -10px;
 }
+
+
+/*Colocacion redes sociales*/
 
 .redesSociales {
     display: flex;

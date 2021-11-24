@@ -23,46 +23,6 @@ p {
     animation-duration: 2s;
 }
 
-.table-responsive {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-}
-
-@media (max-width: 575.98px) {
-    .table-responsive-sm {
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-    }
-}
-
-@media (max-width: 767.98px) {
-    .table-responsive-md {
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-    }
-}
-
-@media (max-width: 991.98px) {
-    .table-responsive-lg {
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-    }
-}
-
-@media (max-width: 1199.98px) {
-    .table-responsive-xl {
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-    }
-}
-
-@media (max-width: 1399.98px) {
-    .table-responsive-xxl {
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-    }
-}
-
 
 /*Estilos de las cartas*/
 
@@ -70,7 +30,6 @@ p {
     margin: 35px;
     width: 843px;
     height: 290px;
-    background-color: wheat;
     border-radius: 15px;
 }
 
@@ -78,7 +37,6 @@ p {
     margin: 35px;
     width: 843px;
     height: 290px;
-    background-color: wheat;
     border-radius: 15px;
 }
 
@@ -86,7 +44,6 @@ p {
     margin: 35px;
     width: 843px;
     height: 290px;
-    background-color: wheat;
     border-radius: 15px;
 }
 
@@ -162,46 +119,40 @@ a:hover {
     color: rgb(206, 226, 255);
 }
 
-
-}
 h1 {
-    text-align: center;
     padding-left: 29px;
-    padding-top: 387px;
     font-size: 70px;
     color: rgb(206, 226, 255);
 }
+
 button:hover {
     animation-name: animacion2;
     animation-duration: 4s;
     animation-iteration-count: infinite;
     border-radius: 15px;
 }
+
 @keyframes animacion2 {
     0% {
         background-color: purple;
         left: 0px;
         top: 0px;
     }
-    
     25% {
         background-color: #4e54c8;
         left: 100px;
         top: 0px;
     }
-    
     50% {
         background-color: #4e54c8;
         left: 100px;
         top: 0px;
     }
-    
     75% {
         background-color: purple;
         left: 100px;
         top: 0px;
     }
-    
     100% {
         background-color: #4e54c8;
         left: 0px;
@@ -209,39 +160,39 @@ button:hover {
     }
 }
 
+
 /*Las animaciones del texto y las imagenes*/
+
 @keyframes animacionFoto {
     from {
         transform: none;
     }
-    
     50% {
         transform: scale(0.9);
     }
-    
     to {
         transform: none;
     }
 }
+
 @keyframes animacionTexto {
     0% {
         transform: scale(1);
     }
-    
     1% {
         transform: scale(1.1);
     }
-    
     2% {
         transform: scale(1.2);
     }
-    
     0% {
         transform: scale(1);
     }
 }
 
+
 /*Apartado de las redes sociales*/
+
 .github {
     width: 60px;
     height: 58px;
@@ -249,6 +200,7 @@ button:hover {
     margin-top: 30px;
     background: #4e54c8;
 }
+
 .instagram {
     width: 60px;
     height: 58px;
@@ -256,31 +208,38 @@ button:hover {
     margin-top: 30px;
     background: #4e54c8;
 }
+
 .imagenes {
     width: 60px;
     height: 60px;
 }
+
 .imagenGithub {
     width: 80px;
     height: 80px;
     margin-left: -10px;
     margin-top: -10px;
 }
+
 .redesSociales {
     display: flex;
     flex-direction: row;
 }
+
 button {
     background-color: #4e54c8;
     border-radius: 15px;
 }
+
 .github button {
     width: 61px;
     height: 66px;
     border-radius: 58px;
 }
 
+
 /*El estilo del background*/
+
 .circles {
     position: absolute;
     top: 0;
@@ -289,6 +248,7 @@ button {
     height: 100%;
     overflow: hidden;
 }
+
 .circles li {
     position: absolute;
     display: block;
@@ -299,12 +259,14 @@ button {
     animation: animate 25s linear infinite;
     bottom: -150px;
 }
+
 .circles li:nth-child(1) {
     left: 25%;
     width: 80px;
     height: 80px;
     animation-delay: 0s;
 }
+
 .circles li:nth-child(2) {
     left: 10%;
     width: 20px;
@@ -312,12 +274,14 @@ button {
     animation-delay: 2s;
     animation-duration: 12s;
 }
+
 .circles li:nth-child(3) {
     left: 70%;
     width: 20px;
     height: 20px;
     animation-delay: 4s;
 }
+
 .circles li:nth-child(4) {
     left: 40%;
     width: 60px;
@@ -325,24 +289,28 @@ button {
     animation-delay: 0s;
     animation-duration: 18s;
 }
+
 .circles li:nth-child(5) {
     left: 65%;
     width: 20px;
     height: 20px;
     animation-delay: 0s;
 }
+
 .circles li:nth-child(6) {
     left: 75%;
     width: 110px;
     height: 110px;
     animation-delay: 3s;
 }
+
 .circles li:nth-child(7) {
     left: 35%;
     width: 150px;
     height: 150px;
     animation-delay: 7s;
 }
+
 .circles li:nth-child(8) {
     left: 50%;
     width: 25px;
@@ -350,6 +318,7 @@ button {
     animation-delay: 15s;
     animation-duration: 45s;
 }
+
 .circles li:nth-child(9) {
     left: 20%;
     width: 15px;
@@ -357,6 +326,7 @@ button {
     animation-delay: 2s;
     animation-duration: 35s;
 }
+
 .circles li:nth-child(10) {
     left: 85%;
     width: 150px;
@@ -365,14 +335,15 @@ button {
     animation-duration: 11s;
 }
 
+
 /*Animacion del background*/
+
 @keyframes animate {
     0% {
         transform: translateY(0) rotate(0deg);
         opacity: 1;
         border-radius: 0;
     }
-    
     100% {
         transform: translateY(-1000px) rotate(720deg);
         opacity: 0;

@@ -13,53 +13,6 @@ body {
     font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.table-responsive {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-}
-
-@media (max-width: 575.98px) {
-    .table-responsive-sm {
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-    }
-}
-
-@media (max-width: 575.98px) {
-    .card-responsive-sm {
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-    }
-}
-
-@media (max-width: 767.98px) {
-    .card-4 {
-        float: left;
-        margin-top: 238px;
-    }
-}
-
-@media (max-width: 991.98px) {
-    .table-responsive-lg {
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-    }
-}
-
-@media (max-width: 1199.98px) {
-    .table-responsive-xl {
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-    }
-}
-
-@media (max-width: 1399.98px) {
-    .table-responsive-xxl {
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-    }
-}
-
 
 /*Estilo a los enlaces*/
 

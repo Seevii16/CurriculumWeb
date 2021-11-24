@@ -9,46 +9,6 @@
     padding: 0px;
 }
 
-.table-responsive {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-}
-
-@media (max-width: 575.98px) {
-    .table-responsive-sm {
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-    }
-}
-
-@media (max-width: 767.98px) {
-    .table-responsive-md {
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-    }
-}
-
-@media (max-width: 991.98px) {
-    .table-responsive-lg {
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-    }
-}
-
-@media (max-width: 1199.98px) {
-    .table-responsive-xl {
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-    }
-}
-
-@media (max-width: 1399.98px) {
-    .table-responsive-xxl {
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-    }
-}
-
 body {
     font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     background: #4e54c8;
@@ -86,7 +46,7 @@ a:hover {
 h1 {
     text-align: center;
     padding-left: 29px;
-    padding-top: 387px;
+    padding-top: 40px;
     font-size: 70px;
     color: rgb(206, 226, 255);
 }
@@ -110,7 +70,7 @@ h1 {
 /* La posicion y tamaño de la foto de perfil*/
 
 .fotoPerfil img {
-    position: absolute;
+    position: relative;
     width: 304px;
     height: 300px;
     left: 544px;
@@ -317,5 +277,51 @@ button:hover {
         transform: translateY(-1000px) rotate(720deg);
         opacity: 0;
         border-radius: 50%;
+    }
+}
+
+@media (max-width: 400px) {
+    .fotoPerfil img {
+        align-items: left;
+        left: 25px;
+        top: 90px;
+    }
+    h1 {
+        margin-top: 90px;
+        font-size: 50px;
+        text-align: left;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    .instagram {
+        width: 50px;
+        height: 48px;
+        margin-left: 10px;
+        margin-top: 10px;
+        background: #4e54c8;
+    }
+    .github {
+        width: 50px;
+        height: 48px;
+        margin-left: 10px;
+        margin-top: 10px;
+        background: #4e54c8;
+    }
+    .imagenes {
+        width: 60px;
+        height: 60px;
+    }
+    .imagenGithub {
+        width: 80px;
+        height: 80px;
+        margin-left: -10px;
+        margin-top: -10px;
+    }
+}
+
+@media (min-width:401px) and ( max-width: 1030px) {
+    h1 {
+        color: green;
     }
 }

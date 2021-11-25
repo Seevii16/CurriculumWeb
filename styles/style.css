@@ -321,7 +321,11 @@ button:hover {
 }
 
 @media (min-width:401px) and ( max-width: 1030px) {
+    .fotoPerfil img {
+        margin-top: 100px;
+        margin-left: -300px;
+    }
     h1 {
-        color: green;
+        margin-top: 100px;
     }
 }

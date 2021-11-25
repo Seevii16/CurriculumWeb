@@ -467,3 +467,86 @@ body {
         border-radius: 50%;
     }
 }
+
+@media (max-width: 400px) {
+    .instagram {
+        width: 50px;
+        height: 48px;
+        margin-left: 10px;
+        margin-top: 10px;
+        background: #4e54c8;
+    }
+    .github {
+        width: 50px;
+        height: 48px;
+        margin-left: 10px;
+        margin-top: 10px;
+        background: #4e54c8;
+    }
+    .imagenes {
+        width: 60px;
+        height: 60px;
+    }
+    .imagenGithub {
+        width: 80px;
+        height: 80px;
+        margin-left: -10px;
+        margin-top: -10px;
+    }
+    .card-4 {
+        display: block;
+        visibility: hidden;
+    }
+    .card {
+        visibility: hidden;
+    }
+    .card-2 {
+        visibility: hidden;
+    }
+    .card-3 {
+        visibility: hidden;
+    }
+    .card-4 {
+        visibility: hidden;
+    }
+    .informacion h1 {
+        width: 649px;
+        height: 51px;
+        margin-left: -366px;
+        margin-top: 50px;
+        font-size: 30px;
+    }
+    .estudios {
+        width: 649px;
+        height: 51px;
+        margin-left: -366px;
+        margin-top: 25px;
+    }
+    .estudiosInfo h1 {
+        width: 649px;
+        height: 51px;
+        margin-left: -366px;
+        margin-top: 50px;
+        font-size: 30px;
+    }
+    .informacionPersonal {
+        width: 649px;
+        height: 51px;
+        margin-left: -366px;
+        margin-top: 25px;
+    }
+    p {
+        font-size: 20px;
+    }
+}
+
+@media (min-width:401px) and ( max-width: 1030px) {
+    .card-4 {
+        margin-top: 200px;
+    }
+    .card-4 img {
+        width: 50px;
+        height: 50px;
+        margin: 0px;
+    }
+}
